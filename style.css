@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: #000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    font-family: 'Cinzel', serif;
+}
+
+.contenedor{
+    position:relative;
+    width:100%;
+    max-width:450px;
+}
+
+.invitacion{
+    width:100%;
+    display:block;
+    border-radius:20px;
+}
+
+.nombre-invitado{
+    position:absolute;
+
+    /* AJUSTA ESTOS VALORES SEGÚN LA IMAGEN */
+    top: 72%;
+    left:50%;
+    transform:translateX(-50%);
+
+    width:80%;
+    text-align:center;
+
+    color:#0b5d3b;
+    font-size:22px;
+    font-weight:bold;
+
+    background:rgba(255,255,255,0.7);
+    padding:8px;
+    border-radius:15px;
+}
+
+.cupos{
+    position:absolute;
+
+    top:82%;
+    left:50%;
+    transform:translateX(-50%);
+
+    color:#000;
+    font-size:18px;
+    font-weight:bold;
+
+    background:rgba(255,255,255,0.8);
+    padding:6px 15px;
+    border-radius:12px;
+}
+
+.contador{
+    position:fixed;
+    top:10px;
+    left:50%;
+    transform:translateX(-50%);
+
+    background:#0b5d3b56;
+    color:rgba(255, 255, 255, 0.705);
+
+    padding:10px 20px;
+    border-radius:15px;
+    z-index:999;
+}
+
+.botones{
+    position:absolute;
+
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display:flex;
+    gap:8px;
+
+    width:90%;
+    justify-content:center;
+}
+
+.botones button{
+    background: rgba(11, 93, 59, 0.9);
+    color: white;
+
+    border: none;
+    border-radius: 20px;
+
+    padding: 8px 12px;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.botones button:hover{
+    transform: scale(1.05);
+}
+
+button{
+    border:none;
+    padding:12px 15px;
+    border-radius:12px;
+    cursor:pointer;
+
+    background:#0b5d3b;
+    color:white;
+    font-weight:bold;
+}
+
+#btnMusica{
+    position:absolute;
+
+    top:15px;
+    right:15px;
+
+    padding:8px 10px;
+
+    font-size:12px;
+
+    border-radius:50px;
+
+    background: rgba(11, 93, 59, 0.85);
+
+    z-index:100;
+}
