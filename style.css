@@ -27,38 +27,33 @@ body{
 
 .nombre-invitado{
     position:absolute;
-
-    /* AJUSTA ESTOS VALORES SEGÚN LA IMAGEN */
-    top: 72%;
+    top: 100%;
     left:50%;
     transform:translateX(-50%);
 
-    width:80%;
+    width:75%;
     text-align:center;
 
     color:#0b5d3b;
-    font-size:22px;
+    font-size:16px;
     font-weight:bold;
 
-    background:rgba(255,255,255,0.7);
-    padding:8px;
-    border-radius:15px;
+    background:rgba(255,255,255,0.75);
+    padding:5px;
+    border-radius:10px;
 }
 
 .cupos{
     position:absolute;
-
-    top:82%;
-    left:50%;
+    top:86%;
+    left:70%;
     transform:translateX(-50%);
 
-    color:#000;
-    font-size:18px;
-    font-weight:bold;
+    font-size:14px;
 
-    background:rgba(255,255,255,0.8);
-    padding:6px 15px;
-    border-radius:12px;
+    background:rgb(255, 255, 255);
+    padding:4px 10px;
+    border-radius:10px;
 }
 
 .contador{
@@ -77,18 +72,17 @@ body{
 
 .botones{
     position:absolute;
+    bottom:-60px; /* Los baja por debajo de la tarjeta */
 
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    left:50%;
+    transform:translateX(-50%);
 
     display:flex;
-    gap:8px;
+    gap:6px;
 
-    width:90%;
+    width:95%;
     justify-content:center;
 }
-
 .botones button{
     background: rgba(11, 93, 59, 0.9);
     color: white;
