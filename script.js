@@ -79,10 +79,15 @@ setInterval(() => {
 
 
 // ==========================
-// INVITADO DE PRUEBA
+// lista de invitados 
 // ==========================
-document.getElementById("nombreInvitado")
-.innerHTML = "JAIR";
+const parametros = new URLSearchParams(window.location.search);
 
-document.getElementById("cuposInvitado")
-.innerHTML = "3 PERSONA(S)";
+const nombre = parametros.get("nombre") || "INVITADO ESPECIAL";
+const cupos = parametros.get("cupos") || "1";
+
+document.getElementById("nombreInvitado").innerHTML =
+    nombre.toUpperCase();
+
+document.getElementById("cuposInvitado").innerHTML =
+    `${cupos} PERSONA(S)`;
