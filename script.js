@@ -86,7 +86,7 @@ const invitados = {
     "FLIA ESPELETA QUINTANA": 4,
     "FLIA JAIME ESPELETA": 3,
     "TIA LILIA": 1,
-    "TIA CARMEN": 1,
+    "TIA CARMEN": 10,
     "TIA SONIA": 1,
     "TIA YINA": 1,
     "YANDRI, MEMI, BIAN": 2,
