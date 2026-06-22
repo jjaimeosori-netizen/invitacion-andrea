@@ -1,6 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-
-    // ==========================
+// ==========================
     // MÚSICA
     // ==========================
     const musica = document.getElementById("musica");
@@ -151,5 +149,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (nombreEl) nombreEl.innerHTML = nombre.toUpperCase();
     if (cuposEl) cuposEl.innerHTML = `${cupos} PERSONA(S)`;
-
-});
